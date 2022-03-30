@@ -19,14 +19,14 @@ When downlaoded, you have compile time errors in the project. To solve them inst
 Oculus Rift/S; Quest/2
 
 ### Visuals: 
-Screenshots (concept and experience), Video
 
-![SkizzeMaze](https://user-images.githubusercontent.com/28704310/159113247-e0cfe023-79fb-4ffd-b76f-342c55d93ef2.png)
+![Issues](https://user-images.githubusercontent.com/72389314/160907321-8d8182e1-52d6-4fc0-8215-f17278e68a87.PNG)
+![konzept](https://user-images.githubusercontent.com/72389314/160907349-50f4ddc9-c707-492d-b647-f83603845b9c.png)
 
 ### Third party material: 
 
 For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
 
-### Limitations/Problems: 
+### Limitations/Problems:
 
-Copyright by smeerws :)
+Copyright by nullrich
