@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1314,12 +1314,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae033cc606b494e4d801c11ad1e52759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 840413462}
   speed: 0.5
   deadZone: 0.2
   movementRange: {x: 0, y: 0}
-  height: 0
-  rotationAxis: 0
+  height: 1.7
+  rotationAxis: 1
 --- !u!59 &610598687
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -2955,7 +2955,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1333345041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.768, y: 0.137, z: 6.311}
+  m_LocalPosition: {x: -7.813, y: 0.137, z: 4.819}
   m_LocalScale: {x: 0.411712, y: 0.58816, z: 0.411712}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3241,12 +3241,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae033cc606b494e4d801c11ad1e52759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 840413462}
   speed: 0.5
   deadZone: 0.2
-  movementRange: {x: 0, y: 0}
+  movementRange: {x: 1.05, y: 1.05}
   height: 0
-  rotationAxis: 0
+  rotationAxis: 2
 --- !u!1 &1577749883
 GameObject:
   m_ObjectHideFlags: 0
@@ -3913,10 +3913,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae033cc606b494e4d801c11ad1e52759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  speed: 0.5
+  target: {fileID: 840413462}
+  speed: 1
   deadZone: 0.2
-  movementRange: {x: 0, y: 0}
+  movementRange: {x: 1.5, y: 1.5}
   height: 0
   rotationAxis: 0
 --- !u!1 &1677519279
@@ -4694,10 +4694,10 @@ MonoBehaviour:
   m_TrackingStateAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 644697a9-0dc5-4cad-96de-1719815f0b23
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -4718,10 +4718,10 @@ MonoBehaviour:
   m_SelectActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Select Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: c0c4ac88-7f16-4ad5-b4f8-c10757904c7c
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -4742,10 +4742,10 @@ MonoBehaviour:
   m_ActivateActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Activate Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 5b46f95c-0999-4614-9d81-88822652b73c
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -4766,10 +4766,10 @@ MonoBehaviour:
   m_UIPressActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: UI Press Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 6bfbaa60-9b60-49ef-accd-1826d69ab490
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
