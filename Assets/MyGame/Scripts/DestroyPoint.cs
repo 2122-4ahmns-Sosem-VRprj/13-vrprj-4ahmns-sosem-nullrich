@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class DestroyPoint : MonoBehaviour
 {
-
+    public GameObject Ausgang;
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);  
+        ScoreTextScript.eggAmount += 1;
+        if (ScoreTextScript.eggAmount == 5)
+        {
+            Ausgang.SetActive(true);
+        }
+        Destroy(other.gameObject);
+
+        
     }
 }
